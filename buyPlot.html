@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description" content="Buy a plot at Willow Gardens.  We have various prices and mentors ready to help you get started!">
+    <title>Buy a Community Garden Plot</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/aa6b26fcc9.js" crossorigin="anonymous"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="js/includeHTML.js"></script>
+
+  </head>
+
+
+  <body>
+    <a href="#main" class="skipLink">Skip to main content</a>
+
+    <div class="row">
+      <div data-my-include-html="header.html" class="container-fluid headerHidden"></div>
+    </div>
+
+    <main id="main">
+
+      <h1>Thank you for your interest in Willow Gardens!</h1>
+
+      <section class="container mt-4 mb-4">
+        <div class="row mb-4 bg-warning">
+
+            <div class="col-12 col-md-6 my-auto">
+              <h3>General Plot Information</h3>
+              <p>Our garden plots measure approximately 20' x 20' (400 sq.ft.). The maximum number of plots per gardener is 4 plots. Gardeners may work in their plots at any time of the year, provided they follow the garden rules. Only organic gardening methods are allowed. We do not till any sections of our gardens, which allows gardeners to plant perennials such as asparagus and strawberries and leave up fences, if desired, throughout the year.</p>
+            </div>
+
+
+            <div class="col-12 col-md-6 pt-2 pb-2 my-auto">
+              <img src="images/gardenPlot.jpg"  alt="Image of Garden Plot">
+            </div>
+
+
+        </div>
+
+        <div class="row mb-4 bg-warning">
+
+
+          <div class="col-md-6 pt-2 pb-2">
+            <img src="images/gardenPlot2.jpg"  alt="Image of Garden Plot">
+          </div>
+
+          <div class="col-md-6 my-auto">
+            <h3 class="text-center">Pricing Options</h3><br>
+            <p>$15, $43, or $78 per plot/year, depending on your income level and size of household/garden family.</p>
+          </div>
+
+
+        </div>
+
+        <div class="row mb-4 justify-content-center d-flex">
+          <div class="card card-body col-12 col-md-2 bg-warning border-0 flex-fill">
+          <i class="fas fa-tint fa-3x text-center mt-2 mb-2"></i><br>
+          <p class="text-center">Water is provided on site throughout the season.</p>
+          </div>
+
+          <div class="card card-body col-12 mt-4 mt-sm-4 col-md-2 mt-md-0 ml-md-5 bg-warning border-0 flex-fill">
+          <i class="fas fa-tools fa-3x text-center mt-2 mb-2"></i><br>
+          <p class="text-center">Garden tools are available for everyone to use.</p>
+          </div>
+
+          <div class="card card-body col-12 mt-4 col-md-2 mt-md-0 ml-md-5 bg-warning border-0 flex-fill">
+          <i class="fas fa-tree fa-3x text-center mt-2 mb-2"></i><br>
+          <p class="text-center">Free wood chips are provided gardener use.</p>
+          </div>
+
+          <div class="card card-body col-12 mt-4 col-md-2 mt-md-0 ml-md-5 bg-warning border-0 flex-fill">
+          <i class="fas fa-money-bill-alt fa-3x text-center mt-2 mb-2"></i><br>
+          <p class="text-center">We offer hay and row cover for sale on our application.</p>
+          </div>
+
+        </div>
+
+      </section>
+
+        <div class="container pt-4 pb-4 pl-4 mb-4 formBorder">
+          <div class="row">
+            <div class="col-12 text-center pb-4">
+              <h3>Please submit the below form to request your garden plot.</h3>
+            </div>
+          </div>
+
+          <form action="http://itins3.madisoncollege.edu/echo.php" method="post" class="needs-validation" novalidate>
+            <h4>Are you a returning gardener?</h4>
+            <div class="form-group">
+              <label for="yesReturning">Yes</label>
+              <input type="radio" name="returning" aria-label="Yes" id="yesReturning">
+              <label for="noReturning">No</label>
+              <input type="radio" name="returning" aria-label="No" id="noReturning">
+            </div>
+
+
+            <div class="form-group">
+              <span class="required">*</span><label for="firstName">First Name (Required)</label>
+              <input type="text" id="firstName" aria-label="first name" aria-required="true" class="col-12 col-md-6 form-control" placeholder="First Name" name="firstName" required
+              pattern="[A-Za-z]{2,25}">
+            </div>
+
+
+            <div class="form-group">
+              <span class="required">*</span><label for="lastName">Last Name (Required)</label>
+              <input type="text" id="lastName" aria-label="last name" aria-required="true" class="col-12 col-md-6 form-control" placeholder="Last Name" name="lastName" required
+              pattern="[A-Za-z]{2,25}">
+            </div>
+
+
+            <div class="form-group">
+              <span class="required">*</span><label for="email">Email (Required)</label>
+              <input type="email" id="email" aria-label="email" aria-required="true" class="col-12 col-md-6 form-control" placeholder="Example@Example.com" name="email" required
+              pattern="[A-Za-z0-9.!#$%'*+/=?^_`{|}~-]{1,}+@[A-Za-z0-9-]{1,}+.[A-za-z0-9]{1,}" />
+            </div>
+
+
+            <div class="form-group">
+              <label for="phoneNumber">Phone Number</label>
+              <input type="tel" id="phoneNumber" aria-label="phone number" class="col-12 col-md-4 form-control" placeholder="999-999-999" name="phoneNumber"
+              pattern="[0-9]{3}+[0-9]{3}+[0-9]{4}" >
+            </div>
+
+
+            <div class="form-group">
+              <label for="numberOfPlots">Number of plots:</label>
+              <small class="form-text" id="plotNote">limit of 4 plots per gardener</small>
+              <select name="numberOfPlots" id="numberOfPlots" class="form-control col-6" aria-describedby="plotNote" aria-label="choose number of plots">
+                <option value="01">1</option>
+                <option value="02">2</option>
+                <option value="03">3</option>
+                <option value="04">4</option>
+              </select>
+            </div>
+
+            <h4>Join a Garden Team!</h4>
+            <p>Teams are a great way to get to know other gardeners and volunteer on your own schedule. You will not be asked
+              to work more than your required volunteer hours due. Check the box for each team you are interested in, we will email you more info</p>
+
+            <div class="form-group">
+            <fieldset>
+            <legend> Which teams would you like to join?</legend>
+            <input type="checkbox" name="Team" value="mentor" id="mentor" aria-label="mentor">
+            <label for="mentor">New Garden Mentor</label>
+            <br>
+            <input type="checkbox" name="Team" id="plot" value="plotMaintenance" aria-label="plot maintenance">
+            <label for="plot">Plot Maintenance </label>
+            <br>
+            <input type="checkbox" name="Team" id="water" value="waterMaintenance" aria-label='water maintenance'>
+            <label for="water">Water Maintenance </label>
+            <br>
+            <input type="checkbox" name="team" id="equipment" value="equipmentMaintenance" aria-label="equipment maintenance">
+            <label for="equipment">Equipment Maintenance </label>
+            </fieldset>
+            </div>
+
+            <div class="col-12 form-group text-center">
+              <button type="submit" class="btn btn-warning btn-lg" aria-label="Submit Button">Submit</button>
+              <button type="reset" class="btn btn-secondary btn-lg" aria-label="Submit Button">Clear</button>
+            </div>
+
+          </form>
+
+          <!--Form Validation Script-->
+          <script>
+        (function() {
+          'use strict';
+          window.addEventListener('load', function() {
+            var forms = document.getElementsByClassName('needs-validation');
+            var validation = Array.prototype.filter.call(forms, function(form) {
+              form.addEventListener('submit', function(event) {
+                if (form.checkValidity() === false) {
+                  event.preventDefault();
+                  event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+              }, false);
+            });
+          }, false);
+        })();
+        </script>
+
+
+      </div>
+
+    </main>
+
+    <div class="row">
+        <div data-my-include-html="footer.html" class="container-fluid"></div>
+    </div>
+
+  <script>includeHTML();</script>
+  </body>
+</html>

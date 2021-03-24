@@ -1,0 +1,171 @@
+/**************
+Color Scheme:
+Black: #2D2E2E;
+Green: #4E6F50;
+Black Shadows: #BCABAE;
+Cultured: #E8F1F2;
+Yellow: #FAF8D4;
+
+
+**************/
+
+
+
+/*******************************
+  Bootstrap Background Color Overwrite
+*******************************/
+
+.bg-primary {
+  background-color: #D0C3C6 !important;
+}
+
+.bg-success {
+  background-color: #4E6F50 !important;
+}
+
+.bg-warning {
+  background-color: #FAF8D4 !important;
+}
+
+.text-warning {
+
+  color: #FAF8D4 !important;
+}
+
+.text-secondary {
+  color: #2D2E2E !important;
+}
+
+
+
+/*******************************
+  HEADER - NAV
+*******************************/
+
+header {
+  background-image: url("/images/gardeningHeader.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 100px;
+}
+
+.nav-item, .nav-link {
+  color: #FAF8D4 !important;
+}
+
+.nav-link:hover {
+  color: #E8F1F2 !important;
+}
+
+/*******************************
+  HTML - BODY - MAIN
+*******************************/
+
+html, body {
+  height: 100%;
+  background-color: #E8F1F2 !important;
+  color: #2D2E2E;
+}
+
+main {
+  background-color: #FFFFFF;
+}
+
+.navbar-brand {
+  color: #ff0073 !important;
+}
+
+.skipLink {
+  position: absolute;
+  left: -1000px;
+}
+
+.skipLink:focus, .skipLink.active {
+  left: 0;
+}
+
+/*******************************
+  Button
+*******************************/
+
+.btn-success {
+  border: none;
+  background-color: #4E6F50;
+}
+
+.btn-success:hover {
+  border: none;
+  background-color: #BCABAE;
+}
+
+
+/*******************************
+ Garden Tips page
+*******************************/
+
+#tachnidFly {
+  color: blue;
+}
+
+/*******************************
+  Headings
+*******************************/
+h1 {
+  color: #649169 !important;
+  text-align: center;
+}
+h1, h2 {
+
+}
+
+h3, h4 {
+
+}
+
+/*******************************
+  Main Content
+*******************************/
+p {
+  font-weight: bold;
+  text-align: justify;
+}
+
+blockquote {
+  text-align: center;
+  font-size: 1.3em;
+  font-style: italic;
+  color: #2D2E2E;
+}
+
+/*******************************
+  Images
+*******************************/
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+/*******************************
+  Form
+*******************************/
+
+.required {
+  color: red;
+}
+
+.formBorder {
+  border: 2px solid #FAF8D4;
+  border-radius: 1rem;
+  background-color: #FAF8D4;
+  color: #2D2E2E;
+}
+
+/*******************************
+  Footer
+*******************************/
+footer {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
